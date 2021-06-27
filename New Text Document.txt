@@ -1,0 +1,11 @@
+
+<div style="width: 50%;margin-top: 15px;padding: 0px 8%;">
+  <h1>Comments</h1>
+  <div *ngFor="let item of dish.comment" style="margin-top: 20px;">
+    <div>{{item.comment}}</div>
+    <div>{{item.rating + " Stars"}}</div>          
+    <div><span>{{'-- '+ item.author + " "}}</span><span>{{item.date | date:'MMM d, y' }}</span>
+      </div>
+  </div>
+</div>
+</div>
