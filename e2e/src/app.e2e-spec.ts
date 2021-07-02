@@ -1,4 +1,3 @@
-import { browser, by, element, logging } from 'protractor';
 import { AppPage } from './app.po';
 
 describe('workspace-project App', () => {
@@ -12,4 +11,6 @@ describe('workspace-project App', () => {
     page.navigateTo('/');
     expect(page.getParagraphText('app-root h1')).toContain('Ristorante Con Fusion');
   });
+
+  
 });
